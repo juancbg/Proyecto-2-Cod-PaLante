@@ -197,3 +197,34 @@ footer {
     flex-direction: column;
     justify-content: space-around;
 }
+
+@media (min-width: 1024px) {
+
+    h1 {
+        font-size:48px;
+        text-align: left;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    section#inicio {
+        flex-direction: row;
+    }
+
+    article.presentacion {
+        width: 50%;
+        text-align: left;
+    }
+
+    ul#enlaces li {
+        margin: 32px;
+    }
+}
+
+li.menu-item:hover,
+a.btn:hover {
+    background: rgb(130, 161, 216, 0.3);
+    transition: background-color 0.3s;
+}
