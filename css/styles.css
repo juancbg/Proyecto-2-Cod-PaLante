@@ -224,6 +224,7 @@ footer {
 }
 
 li.menu-item:hover,
+li.menu-item a.active,
 a.btn:hover {
     background: rgb(130, 161, 216, 0.3);
     transition: background-color 0.3s;
