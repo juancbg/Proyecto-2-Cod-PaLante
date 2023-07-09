@@ -1,4 +1,4 @@
-let menuItems = document.querySelectorAll('.menu-item');
+const menuItems = document.querySelectorAll('.menu-item');
 
 menuItems.forEach(function(item) {
     item.addEventListener('click', function(e) {
@@ -7,3 +7,10 @@ menuItems.forEach(function(item) {
         e.target.classList.add('active');
     });
 });
+
+const changeFontBtn = document.querySelector('#change-font');
+
+changeFontBtn.addEventListener('click',function() {
+    document.body.classList.toggle('change-font')
+}
+);
